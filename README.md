@@ -1,17 +1,10 @@
-Link-in-bio for Craftzdog
+Link-in-bio for Pablomicheletti
 =========================
-
+This project is forked form this amazing guy here ⤵️
 https://links.craftz.dog/
-
-![thumbnail](./thumb.jpg)
-
 [Video tutorial available here](https://youtu.be/u71pHOyvBp0).
 
-## License
+=========================
+Of course i've added a lot of things, but i think you'll need to know Takuya. That's it. 
 
-MIT by Takuya Matsuyama
-
-You can create your own link-in-bio page for free without notifying me by forking this project under the following conditions:
-
-- Add a link to [my homepage](https://www.craftz.dog/) anywhere
-- Do not use the Japanese garden picture
+If you want to use this code too, you are able to do it, just consider to mention me somewhere in your code, see ya! 👋

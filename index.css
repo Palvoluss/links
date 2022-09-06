@@ -24,9 +24,10 @@ main {
 }
 
 footer {
-  position: absolute;
-  right: 50%;
-  top: 80%;
+  position: relative;
+  right: -50%;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .animated {

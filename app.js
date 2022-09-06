@@ -1,5 +1,4 @@
 const btnEl = document.querySelector('.btn');
-console.log(btnEl)
 
 const toggleOpts = () => {
   const wrapperEl = document.querySelector(".wrapper");
@@ -16,3 +15,12 @@ const toggleOpts = () => {
 };
 
 if (btnEl) btnEl.addEventListener('click', toggleOpts);
+
+console.log({
+    version: '1.0',
+    credits: {
+        inspiration: 'https://www.craftz.dog',
+        icons: 'https://icon8.it'
+    },
+    messageForHeker:'Ottimo, vuoi provare a fare l\'heker eh! Beh qui non troverai niente xoxo'
+})
