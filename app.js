@@ -17,7 +17,7 @@ const toggleOpts = () => {
 if (btnEl) btnEl.addEventListener('click', toggleOpts);
 
 console.log({
-    version: '1.0',
+    version: '1.1',
     credits: {
         inspiration: 'https://www.craftz.dog',
         icons: 'https://icon8.it'

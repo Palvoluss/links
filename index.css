@@ -4,9 +4,12 @@ html {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
+  height: 100%;
+  width: auto;
 }
 
 body {
+  position: relative;
   background-size: cover;
 }
 
@@ -19,17 +22,6 @@ body {
   height: 100%;
 }
 
-main {
-  position: relative;
-}
-
-footer {
-  position: relative;
-  right: -50%;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
 .animated {
   opacity: 0;
   filter: blur(10px);
@@ -38,11 +30,11 @@ footer {
 
 
 header {
-  margin-top: 3em;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 2em;
 }
 
 header>img {
@@ -147,7 +139,9 @@ main ul>li>a {
 
 
 footer .wrapper {
-  position: relative;
+  /* margin-top: 2em; */
+  transform: translateX(50vw);
+  width: 0px;
 }
 
 footer .wrapper :is(.btn, .link) {
@@ -170,7 +164,7 @@ footer .btn {
   cursor: pointer;
   z-index: 10;
   transition: outline .25s;
-  transform: translateX(80%);
+  /* transform: translateX(80%); */
 }
 
 footer .active .btn,
