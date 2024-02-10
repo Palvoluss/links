@@ -169,7 +169,6 @@ footer .btn {
 
 footer .active .btn,
 .btn:hover {
-  outline: 5px solid #261447;
   outline-offset: -4px;
 }
 
